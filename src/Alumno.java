@@ -11,4 +11,5 @@ public class Alumno {
         this.matricula = matricula;
         this.especialidad = especialidad;
     }
+
 }

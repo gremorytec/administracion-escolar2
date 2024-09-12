@@ -1,8 +1,8 @@
 public class Grupo {
     String codigo;
-    Materias materia;
+    String materia;
 
-    Grupo(String codigo, Materias materia) {
+    Grupo(String codigo, String materia) {
         this.codigo = codigo;
         this.materia = materia;
     }
