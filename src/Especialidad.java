@@ -4,4 +4,8 @@ public class Especialidad {
     Especialidad(String nombre) {
         this.nombre = nombre;
     }
+    @Override
+    public String toString() {
+        return nombre; // O lo que consideres que debe devolver como String
+    }
 }
